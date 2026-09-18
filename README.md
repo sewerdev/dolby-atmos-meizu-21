@@ -1,37 +1,40 @@
-# Dolby Atmos for Meizu 21
-dolby atmos port for meizu 21 from Xperia 5V
 <div align="center">
 
 # 🎧 Dolby Atmos for Meizu 21
 
-**Ready-to-flash Magisk module that brings Dolby Atmos to the MEIZU 21**
-<sub>Flyme 12.6 · Android 16 · Snapdragon 8 Gen 3 · arm64-v8a</sub>
+Ready-to-flash Magisk module that brings Dolby Atmos to the MEIZU 21, ported from the Sony Xperia 5V build.
 
-[![Platform](https://img.shields.io/badge/platform-Magisk%20%7C%20KernelSU%20%7C%20APatch-2ea44f?style=flat-square)](#install)
+[![Platform](https://img.shields.io/badge/platform-Magisk%20%7C%20KernelSU%20%7C%20APatch-2ea44f?style=flat-square)](#device)
 [![Android](https://img.shields.io/badge/Android-16%20(SDK%2036)-3ddc84?style=flat-square&logo=android&logoColor=white)](#device)
 [![ABI](https://img.shields.io/badge/ABI-arm64--v8a-6f42c1?style=flat-square)](#device)
 [![Telegram](https://img.shields.io/badge/Telegram-%40VestronVulture-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/VestronVulture)
 
-**Author:** [sewerdev](https://github.com/sewerdev) · Telegram: [t.me/VestronVulture](https://t.me/VestronVulture)
+**Author:** [sewerdev](https://github.com/sewerdev) &nbsp;·&nbsp; **Telegram:** [@VestronVulture](https://t.me/VestronVulture)
 
-**EN English** · [🇷🇺 Русский](#русский)
+English &nbsp;·&nbsp; [Русский](#русский)
 
 </div>
 
 ---
 
-## 📱 Device
+## Device
 
-| | |
-|---|---|
-| **Model** | MEIZU 21 (`meizu_21_CN`) |
-| **Firmware** | Flyme 12.6.0.0A |
-| **Android** | 16 (SDK 36) |
-| **SoC** | Snapdragon 8 Gen 3 (`pineapple`) |
-| **ABI** | `arm64-v8a` only |
-| **Root** | Magisk 31 (alpha) |
+- **Model:** MEIZU 21 (`meizu_21_CN`)
+- **Firmware:** Flyme 12.6.0.0A
+- **Android:** 16 (SDK 36)
+- **SoC:** Snapdragon 8 Gen 3 (`pineapple`)
+- **ABI:** `arm64-v8a` only
+- **Root:** Magisk, KernelSU or APatch; tested on Magisk 31 (alpha)
 
-## 🚀 Install
+## Install
+
+**Via the Magisk app**
+
+1. Copy `Dolby-Atmos-Meizu-21-v1.0.zip` to your device.
+2. Open **Magisk → Modules → Install from storage** and select the zip.
+3. Reboot.
+
+**Via ADB**
 
 ```bash
 adb push Dolby-Atmos-Meizu-21-v1.0.zip /data/local/tmp/
@@ -39,57 +42,54 @@ adb shell su -c "magisk --install-module /data/local/tmp/Dolby-Atmos-Meizu-21-v1
 adb reboot
 ```
 
-## 🗑 Uninstall
+## Uninstall
 
 ```bash
 adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"
 adb reboot
 ```
 
-## 🛠 Troubleshooting
+## Credits
 
-| Symptom | Fix |
-|---|---|
-| No sound / bootloop | hold **Vol-** while booting (Magisk safe mode), or `adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"` + reboot |
-| Dolby not audible in Spotify | make sure you flashed **this** module (Compress Offload is already disabled inside) |
-| Loud burst on pause | fixed in v1.0 — reinstall and reboot |
-| BT headset profile doesn't auto-switch | known limitation of this UI; audio is still processed |
-
-## 🙏 Credits
-
-- Upstream ports & module scripts — **[reiryuki](https://github.com/reiryuki)** (MIT for the module code).
-- Dolby™ apps/blobs are © **Dolby Laboratories**; Motorola/Sony assets belong to their owners.
-  Included only to provide a ready-to-flash build for the Meizu 21 — rights holders may request removal.
+- Upstream port and module scripts by [reiryuki](https://github.com/reiryuki), module code licensed under MIT.
+- Dolby™ apps and blobs are © Dolby Laboratories; Motorola/Sony assets belong to their respective owners. They are included only to provide a ready-to-flash build for the Meizu 21 and will be removed on request from the rights holders.
 
 ---
 
-<a name="русский"></a>
+<a id="русский"></a>
 
 <div align="center">
 
 # 🎧 Dolby Atmos для Meizu 21
 
-**Готовый к прошивке Magisk-модуль с Dolby Atmos для MEIZU 21**
-<sub>Flyme 12.6 · Android 16 · Snapdragon 8 Gen 3 · только arm64-v8a</sub>
+Готовый к прошивке Magisk-модуль с Dolby Atmos для MEIZU 21, портирован со сборки для Sony Xperia 5V.
 
-**Автор:** [sewerdev](https://github.com/sewerdev) · Telegram: [t.me/VestronVulture](https://t.me/VestronVulture)
+**Автор:** [sewerdev](https://github.com/sewerdev) &nbsp;·&nbsp; **Telegram:** [@VestronVulture](https://t.me/VestronVulture)
 
-[EN English](#-dolby-atmos-for-meizu-21) · **🇷🇺 Русский**
+[English](#-dolby-atmos-for-meizu-21) &nbsp;·&nbsp; Русский
 
 </div>
 
-## 📱 Устройство
+---
 
-| | |
-|---|---|
-| **Модель** | MEIZU 21 (`meizu_21_CN`) |
-| **Прошивка** | Flyme 12.6.0.0A |
-| **Android** | 16 (SDK 36) |
-| **SoC** | Snapdragon 8 Gen 3 (`pineapple`) |
-| **ABI** | только `arm64-v8a` |
-| **Root** | Magisk 31 (alpha) |
+## Устройство
 
-## 🚀 Установка
+- **Модель:** MEIZU 21 (`meizu_21_CN`)
+- **Прошивка:** Flyme 12.6.0.0A
+- **Android:** 16 (SDK 36)
+- **SoC:** Snapdragon 8 Gen 3 (`pineapple`)
+- **ABI:** только `arm64-v8a`
+- **Root:** Magisk, KernelSU или APatch; протестировано на Magisk 31 (alpha)
+
+## Установка
+
+**Через приложение Magisk**
+
+1. Скопируйте `Dolby-Atmos-Meizu-21-v1.0.zip` на устройство.
+2. Откройте **Magisk → Модули → Установить из памяти** и выберите zip-файл.
+3. Перезагрузитесь.
+
+**Через ADB**
 
 ```bash
 adb push Dolby-Atmos-Meizu-21-v1.0.zip /data/local/tmp/
@@ -97,26 +97,15 @@ adb shell su -c "magisk --install-module /data/local/tmp/Dolby-Atmos-Meizu-21-v1
 adb reboot
 ```
 
-## 🗑 Удаление
+## Удаление
 
 ```bash
 adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"
 adb reboot
 ```
 
-## 🛠 Решение проблем
+## Благодарности
 
-| Симптом | Что делать |
-|---|---|
-| Нет звука / bootloop | зажать **Vol-** при загрузке (Magisk safe mode) или `adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"` + ребут |
-| Dolby не слышно в Spotify | убедитесь, что прошит **этот** модуль (Compress Offload внутри уже отключён) |
-| Громкий щелчок на паузе | исправлено в v1.0 — переустановите и перезагрузитесь |
-| Профиль гарнитуры не переключается автоматически | известное ограничение этого UI; звук всё равно обрабатывается |
+- Апстрим-порт и скрипты модуля: [reiryuki](https://github.com/reiryuki), код модуля распространяется под лицензией MIT.
+- Приложения и файлы Dolby™ являются собственностью Dolby Laboratories; ресурсы Motorola/Sony принадлежат их правообладателям. Они включены только для того, чтобы дать готовую сборку под Meizu 21, и будут удалены по требованию правообладателей.
 
-## 🙏 Благодарности
-
-- Апстрим-порты и скрипты модуля — **[reiryuki](https://github.com/reiryuki)** (MIT на код модуля).
-- Dolby™-приложения и блобы © **Dolby Laboratories**; ассеты Motorola/Sony — их правообладателям.
-  Включены только чтобы дать готовую сборку для Meizu 21; правообладатели могут потребовать удаления.
-
-<div align="center"><sub>Сделано с ❤️ для Meizu 21 · <a href="https://github.com/sewerdev">github.com/sewerdev</a> · <a href="https://t.me/VestronVulture">t.me/VestronVulture</a></sub></div>

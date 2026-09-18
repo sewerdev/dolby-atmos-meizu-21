@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/32383606/README.md)
 # Dolby Atmos for Meizu 21
 dolby atmos port for meizu 21 from Xperia 5V
 <div align="center">

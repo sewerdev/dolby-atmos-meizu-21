@@ -48,14 +48,6 @@ adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"
 adb reboot
 ```
 
-## 🧠 What's inside
-
-A repack of [reiryuki](https://github.com/reiryuki)'s
-**Dolby-Atmos-Sony-Xperia-5-V-Magisk-Module** with the **Audio Compatibility Patch Reborn**
-policy fix merged inside, plus the specific patches for this device.
-Full details: [`patches/PATCHES.md`](patches/PATCHES.md) · engineering report:
-[`docs/REPORT.html`](docs/REPORT.html).
-
 ```
 Dolby-Atmos-Meizu-21-v1.0.zip   # ready-to-flash module  → also on Releases
 docs/screenshots/               # app screenshots
@@ -122,13 +114,6 @@ adb reboot
 adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"
 adb reboot
 ```
-
-## 🧠 Что внутри
-
-Репак модуля [reiryuki](https://github.com/reiryuki)
-**Dolby-Atmos-Sony-Xperia-5-V-Magisk-Module** с влитым внутрь фиксом **Audio Compatibility Patch
-Reborn** и патчами под это устройство. Подробности — [`patches/PATCHES.md`](patches/PATCHES.md),
-инженерный отчёт — [`docs/REPORT.html`](docs/REPORT.html).
 
 ```
 Dolby-Atmos-Meizu-21-v1.0.zip   # готовый к прошивке модуль  → также в Releases

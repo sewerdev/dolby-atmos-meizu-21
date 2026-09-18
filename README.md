@@ -22,14 +22,6 @@ dolby atmos port for meizu 21 from Xperia 5V
 
 ---
 
-## 📸 Screenshots
-
-<p align="center">
-  <img src="docs/screenshots/01-main.png" width="30%">
-  <img src="docs/screenshots/02-app.png" width="30%">
-  <img src="docs/screenshots/03-app.png" width="30%">
-</p>
-
 ## 📱 Device
 
 | | |
@@ -104,14 +96,6 @@ build/                          # PowerShell build scripts
 [🇬🇧 English](#-dolby-atmos-for-meizu-21) · **🇷🇺 Русский**
 
 </div>
-
-## 📸 Скриншоты
-
-<p align="center">
-  <img src="docs/screenshots/01-main.png" width="30%">
-  <img src="docs/screenshots/02-app.png" width="30%">
-  <img src="docs/screenshots/03-app.png" width="30%">
-</p>
 
 ## 📱 Устройство
 

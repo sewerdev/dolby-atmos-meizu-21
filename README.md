@@ -62,7 +62,6 @@ adb reboot
 - Upstream ports & module scripts — **[reiryuki](https://github.com/reiryuki)** (MIT for the module code).
 - Dolby™ apps/blobs are © **Dolby Laboratories**; Motorola/Sony assets belong to their owners.
   Included only to provide a ready-to-flash build for the Meizu 21 — rights holders may request removal.
-- Scripts & documentation here — **MIT** ([LICENSE](LICENSE)).
 
 ---
 
@@ -121,6 +120,5 @@ adb reboot
 - Апстрим-порты и скрипты модуля — **[reiryuki](https://github.com/reiryuki)** (MIT на код модуля).
 - Dolby™-приложения и блобы © **Dolby Laboratories**; ассеты Motorola/Sony — их правообладателям.
   Включены только чтобы дать готовую сборку для Meizu 21; правообладатели могут потребовать удаления.
-- Скрипты и документация здесь — **MIT** ([LICENSE](LICENSE)).
 
 <div align="center"><sub>Сделано с ❤️ для Meizu 21 · <a href="https://github.com/sewerdev">github.com/sewerdev</a> · <a href="https://t.me/VestronVulture">t.me/VestronVulture</a></sub></div>

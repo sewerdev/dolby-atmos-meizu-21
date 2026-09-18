@@ -16,7 +16,7 @@ dolby atmos port for meizu 21 from Xperia 5V
 
 **Author:** [sewerdev](https://github.com/sewerdev) · Telegram: [t.me/VestronVulture](https://t.me/VestronVulture)
 
-**🇬🇧 English** · [🇷🇺 Русский](#русский)
+**EN English** · [🇷🇺 Русский](#русский)
 
 </div>
 
@@ -92,7 +92,7 @@ build/                          # PowerShell build scripts
 
 **Автор:** [sewerdev](https://github.com/sewerdev) · Telegram: [t.me/VestronVulture](https://t.me/VestronVulture)
 
-[🇬🇧 English](#-dolby-atmos-for-meizu-21) · **🇷🇺 Русский**
+[EN English](#-dolby-atmos-for-meizu-21) · **🇷🇺 Русский**
 
 </div>
 

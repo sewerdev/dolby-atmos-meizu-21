@@ -10,7 +10,6 @@ dolby atmos port for meizu 21 from Xperia 5V
 [![Platform](https://img.shields.io/badge/platform-Magisk%20%7C%20KernelSU%20%7C%20APatch-2ea44f?style=flat-square)](#install)
 [![Android](https://img.shields.io/badge/Android-16%20(SDK%2036)-3ddc84?style=flat-square&logo=android&logoColor=white)](#device)
 [![ABI](https://img.shields.io/badge/ABI-arm64--v8a-6f42c1?style=flat-square)](#device)
-[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 [![Telegram](https://img.shields.io/badge/Telegram-%40VestronVulture-26A5E4?style=flat-square&logo=telegram&logoColor=white)](https://t.me/VestronVulture)
 
 **Author:** [sewerdev](https://github.com/sewerdev) · Telegram: [t.me/VestronVulture](https://t.me/VestronVulture)

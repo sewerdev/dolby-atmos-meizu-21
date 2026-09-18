@@ -25,7 +25,6 @@ dolby atmos port for meizu 21 from Xperia 5V
 ## 📱 Device
 
 | | |
-|---|---|
 | **Model** | MEIZU 21 (`meizu_21_CN`) |
 | **Firmware** | Flyme 12.6.0.0A |
 | **Android** | 16 (SDK 36) |

@@ -48,14 +48,6 @@ adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"
 adb reboot
 ```
 
-```
-Dolby-Atmos-Meizu-21-v1.0.zip   # ready-to-flash module  → also on Releases
-docs/screenshots/               # app screenshots
-docs/REPORT.html                # build & engineering report
-patches/PATCHES.md              # exactly what changed vs upstream
-build/                          # PowerShell build scripts
-```
-
 ## 🛠 Troubleshooting
 
 | Symptom | Fix |
@@ -113,14 +105,6 @@ adb reboot
 ```bash
 adb shell su -c "rm -rf /data/adb/modules/DolbyAtmos"
 adb reboot
-```
-
-```
-Dolby-Atmos-Meizu-21-v1.0.zip   # готовый к прошивке модуль  → также в Releases
-docs/screenshots/               # скриншоты приложения
-docs/REPORT.html                # отчёт по сборке
-patches/PATCHES.md              # что именно изменено против апстрима
-build/                          # скрипты сборки (PowerShell)
 ```
 
 ## 🛠 Решение проблем

@@ -22,22 +22,6 @@ dolby atmos port for meizu 21 from Xperia 5V
 
 ---
 
-## ⬇️ Download
-
-Grab **`Dolby-Atmos-Meizu-21-v1.0.zip`** from the [**Releases**](../../releases) page and flash it with
-Magisk / KernelSU / APatch.
-
-## ✨ Features
-
-- 🔊 **Dolby Atmos (DAP) processing, always on** — no in-app toggle needed, works in **every player**
-  (Spotify, Auxio, YouTube, …).
-- 🎚 Ships the **Dolby Sound** UI app with profiles, IEQ presets and a graphic equalizer.
-- 🔇 **No loud burst on pause** — the AOSP `dynamics_processing` "volume controller" that reset the
-  chain gain to unity on stop is removed.
-- 🎵 **Works in Spotify** — Compress Offload is disabled so apps on that path don't bypass the effect
-  chain; `RAW`/`FAST` stay enabled, so there is **no added latency**.
-- 🧩 **One single module** — the audio-policy fix is merged inside; nothing else to flash.
-
 ## 📸 Screenshots
 
 <p align="center">
@@ -120,22 +104,6 @@ build/                          # PowerShell build scripts
 [🇬🇧 English](#-dolby-atmos-for-meizu-21) · **🇷🇺 Русский**
 
 </div>
-
-## ⬇️ Скачать
-
-Берите **`Dolby-Atmos-Meizu-21-v1.0.zip`** на странице [**Releases**](../../releases) и прошивайте
-через Magisk / KernelSU / APatch.
-
-## ✨ Возможности
-
-- 🔊 **Обработка Dolby Atmos (DAP) всегда включена** — тумблер в приложении не нужен, работает во
-  **всех плеерах** (Spotify, Auxio, YouTube, …).
-- 🎚 В комплекте приложение **Dolby Sound** — профили, IEQ-пресеты и графический эквалайзер.
-- 🔇 **Нет громкого «выброса» на паузе** — AOSP-эффект `dynamics_processing` (использовался как
-  регулятор громкости цепочки и сбрасывал гейн в максимум при остановке) удалён.
-- 🎵 **Работает в Spotify** — Compress Offload отключён, чтобы приложения на этом пути не обходили
-  цепочку эффектов; `RAW`/`FAST` не тронуты, поэтому **лишней задержки нет**.
-- 🧩 **Один цельный модуль** — фикс аудиополитики влит внутрь, больше ничего прошивать не нужно.
 
 ## 📸 Скриншоты
 

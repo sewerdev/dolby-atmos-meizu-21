@@ -2,7 +2,7 @@
 
 # 🎧 Dolby Atmos for Meizu 21
 
-Ready-to-flash Magisk module that brings Dolby Atmos to the MEIZU 21, ported from the Sony Xperia 5V build.
+Ready-to-flash Magisk module that brings Dolby Atmos to the MEIZU 21 (and maybe for 20 series), ported from the Sony Xperia 5V build.
 
 [![Platform](https://img.shields.io/badge/platform-Magisk%20%7C%20KernelSU%20%7C%20APatch-2ea44f?style=flat-square)](#device)
 [![Android](https://img.shields.io/badge/Android-16%20(SDK%2036)-3ddc84?style=flat-square&logo=android&logoColor=white)](#device)
@@ -37,7 +37,7 @@ English &nbsp;·&nbsp; [Русский](#русский)
 **Via ADB**
 
 ```bash
-adb push Dolby-Atmos-Meizu-21-v1.0.zip /data/local/tmp/
+adb push *name*.zip /data/local/tmp/
 adb shell su -c "magisk --install-module /data/local/tmp/Dolby-Atmos-Meizu-21-v1.0.zip"
 adb reboot
 ```
@@ -62,7 +62,7 @@ adb reboot
 
 # 🎧 Dolby Atmos для Meizu 21
 
-Готовый к прошивке Magisk-модуль с Dolby Atmos для MEIZU 21, портирован со сборки для Sony Xperia 5V.
+Готовый к прошивке Magisk-модуль с Dolby Atmos для MEIZU 21 (и возможно для 20 линейки), портирован со сборки для Sony Xperia 5V.
 
 **Автор:** [sewerdev](https://github.com/sewerdev) &nbsp;·&nbsp; **Telegram:** [@VestronVulture](https://t.me/VestronVulture)
 
@@ -92,7 +92,7 @@ adb reboot
 **Через ADB**
 
 ```bash
-adb push Dolby-Atmos-Meizu-21-v1.0.zip /data/local/tmp/
+adb push *название*.zip /data/local/tmp/
 adb shell su -c "magisk --install-module /data/local/tmp/Dolby-Atmos-Meizu-21-v1.0.zip"
 adb reboot
 ```

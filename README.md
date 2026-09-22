@@ -30,7 +30,7 @@ English &nbsp;·&nbsp; [Русский](#русский)
 
 **Via the Magisk app**
 
-1. Copy `Dolby-Atmos-Meizu-21-v1.0.zip` to your device.
+1. Copy `.zip file` to your device.
 2. Open **Magisk → Modules → Install from storage** and select the zip.
 3. Reboot.
 
@@ -85,7 +85,7 @@ adb reboot
 
 **Через приложение Magisk**
 
-1. Скопируйте `Dolby-Atmos-Meizu-21-v1.0.zip` на устройство.
+1. Скопируйте `.zip файл модуля` на устройство.
 2. Откройте **Magisk → Модули → Установить из памяти** и выберите zip-файл.
 3. Перезагрузитесь.
 

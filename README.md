@@ -38,7 +38,7 @@ English &nbsp;·&nbsp; [Русский](#русский)
 
 ```bash
 adb push *name*.zip /data/local/tmp/
-adb shell su -c "magisk --install-module /data/local/tmp/Dolby-Atmos-Meizu-21-v1.0.zip"
+adb shell su -c "magisk --install-module /data/local/tmp/*name*.zip"
 adb reboot
 ```
 
@@ -93,7 +93,7 @@ adb reboot
 
 ```bash
 adb push *название*.zip /data/local/tmp/
-adb shell su -c "magisk --install-module /data/local/tmp/Dolby-Atmos-Meizu-21-v1.0.zip"
+adb shell su -c "magisk --install-module /data/local/tmp/*название*.zip"
 adb reboot
 ```
 
